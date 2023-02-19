@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,109 +14,110 @@
     />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="./index.html">Studio</a>
+    <!-- Header section-->
+    <header class="header">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo link"><span>Web</span>Studio</a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a href="./index.html" class="header-link link">Studio</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Portfolio</a>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-link link">Portfolio</a>
           </li>
-          <li>
-            <a href="">Contacts</a>
+          <li class="header-item">
+            <a href="" class="header-link link">Contacts</a>
           </li>
         </ul>
       </nav>
-
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+    
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-email">
+            <a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="address-tel">
+            <a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
-    <!-- Hero -->
-    <main>
-      <h1>Portfolio</h1>
-      <section>
-        <ul>
-          <li>
-            <button type="button">All</button>
+    <!-- Portfolio section-->
+    <main class="second-page">
+      <section class="portfolio">
+        <h1 class="portfolio-title hide">Portfolio</h1>
+        <ul class="portfolio-list-btn list">
+          <li class="portfolio-item-btn">
+            <button type="button" class="portfolio-btn">All</button>
           </li>
-          <li>
-            <button type="button">Web Site</button>
+          <li class="portfolio-item-btn">
+            <button type="button" class="portfolio-btn">Web Site</button>
           </li>
-          <li>
-            <button type="button">App</button>
+          <li class="portfolio-item-btn">
+            <button type="button" class="portfolio-btn">App</button>
           </li>
-          <li>
-            <button type="button">Design</button>
+          <li class="portfolio-item-btn">
+            <button type="button" class="portfolio-btn">Design</button>
           </li>
-          <li>
-            <button type="button">Marketing</button>
+          <li class="portfolio-item-btn">
+            <button type="button" class="portfolio-btn">Marketing</button>
           </li>
         </ul>
-        <ul>
-          <li>
+        <!-- Work examples -->
+        <ul class="portfolio-list-examples list">
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/banking-app.jpg"
               alt="screenshots of banking app"
               width="360"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="portfolio-subtitle">Banking App Interface Concept</h2>
+            <p class="portfolio-desription">App</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/cashless-payment.jpg"
               alt="smartphone is scaning qr-code"
               width="360"
             />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h2 class="portfolio-subtitle">Cashless Payment</h2>
+            <p class="portfolio-desription">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/meditation-app.jpg"
               alt="laptop and phone with front mockup design"
               width="360"
             />
-            <h2>Meditaion App</h2>
-            <p>App</p>
+            <h2 class="portfolio-subtitle">Meditaion App</h2>
+            <p class="portfolio-desription">App</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/taxi-service.jpg"
               alt="taxi driver is waiting client"
               width="360"
             />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h2 class="portfolio-subtitle">Taxi Service</h2>
+            <p class="portfolio-desription">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/screen-illustrations.jpg"
               alt="app on the phone display"
               width="360"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h2 class="portfolio-subtitle">Screen Illustrations</h2>
+            <p class="portfolio-desription">Design</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/online-courses.jpg"
               alt="girl is laughing and holding phone in front of she"
               width="360"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h2 class="portfolio-subtitle">Online Courses</h2>
+            <p class="portfolio-desription">Marketing</p>
           </li>
           <li>
             <img
@@ -124,8 +125,8 @@
               alt="screenshot instagram stories in new design"
               width="360"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h2 class="portfolio-subtitle">Instagram Stories Concept</h2>
+            <p class="portfolio-desription">Design</p>
           </li>
           <li>
             <img
@@ -133,25 +134,25 @@
               alt="woman is carrying bag with fruits"
               width="360"
             />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h2 class="portfolio-subtitle">Organic Food</h2>
+            <p class="portfolio-desription">Web Site</p>
           </li>
-          <li>
+          <li class="portfolio-item-examples">
             <img
               src="./images/portfolio/fresh-coffee.jpg"
               alt="milk is poured into coffee"
               width="360"
             />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h2 class="portfolio-subtitle">Fresh Coffee</h2>
+            <p class="portfolio-desription">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-    <!-- Footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <!-- Footer section-->
+    <footer class="footer">
+      <a href="./index.html" class="footer-logo link"><span>Web</span>Studio</a>
+      <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
